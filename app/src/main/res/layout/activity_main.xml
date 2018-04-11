@@ -69,8 +69,8 @@
 
     <ImageButton
         android:id="@+id/ConfigImageButton"
-        android:layout_width="70"
-        android:layout_height="70"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -88,8 +88,8 @@
 
     <ImageButton
         android:id="@+id/ListimageButton"
-        android:layout_width="70"
-        android:layout_height="70"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"

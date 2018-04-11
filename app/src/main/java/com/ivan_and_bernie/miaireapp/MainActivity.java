@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void goToRight() {
-        Intent myIntent = new Intent(MainActivity.this, LeftActivity.class);
+        Intent myIntent = new Intent(MainActivity.this, RightActivity.class);
         MainActivity.this.startActivity(myIntent);
     }
 
