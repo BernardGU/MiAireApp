@@ -8,12 +8,22 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    //private ImageButton imgButtonLeft = (ImageButton) findViewById(R.id.setting)
+    //Declare imageButtons
+    private ImageButton imgButtonLeft;
+    private ImageButton imgButtonRight;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Define imageButtons
+        imgButtonLeft = (ImageButton) findViewById(R.id.ConfigImageButton);
+        imgButtonRight = (ImageButton) findViewById(R.id.ListimageButton);
+
+        //Set OnClickListeners to imageButtons
+        imgButtonLeft.setOnClickListener(this);
+        imgButtonRight.setOnClickListener(this);
     }
 
     public void goToLeft() {
@@ -28,6 +38,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-
+        switch (view.getId()) {
+            case R.id.ConfigImageButton:
+                goToLeft();
+                break;
+            case R.id.ListimageButton:
+                goToRight();
+                break;
+        }
     }
 }
