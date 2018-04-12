@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class LeftActivity extends AppCompatActivity {
-    private ImageButton buttonHome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +16,7 @@ public class LeftActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
         setContentView(R.layout.activity_left);
 
-        buttonHome = findViewById(R.id.HomeButton);
+        ImageButton buttonHome = findViewById(R.id.HomeButton);
         buttonHome.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
