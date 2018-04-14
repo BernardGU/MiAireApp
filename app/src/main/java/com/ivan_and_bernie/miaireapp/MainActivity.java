@@ -30,11 +30,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void goToLeft() {
         Intent myIntent = new Intent(MainActivity.this, LeftActivity.class);
         MainActivity.this.startActivity(myIntent);
+        //Slide the activity in from the left
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 
     public void goToRight() {
         Intent myIntent = new Intent(MainActivity.this, RightActivity.class);
         MainActivity.this.startActivity(myIntent);
+        //Slide the activity in from the left
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
     @Override

@@ -12,8 +12,6 @@ public class LeftActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Slide the activity in from the left
-        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
         setContentView(R.layout.activity_left);
 
         ImageButton buttonHome = findViewById(R.id.HomeButton);
@@ -28,5 +26,7 @@ public class LeftActivity extends AppCompatActivity {
     public void OpenHome(){
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
+        //Slide the activity in from the left
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 }
