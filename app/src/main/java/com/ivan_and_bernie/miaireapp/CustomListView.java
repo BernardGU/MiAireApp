@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import java.util.List;
+
 public class CustomListView extends ArrayAdapter<String>{
 
     private String[] fecha;
@@ -24,7 +26,6 @@ public class CustomListView extends ArrayAdapter<String>{
         this.fecha=fecha;
         this.sensor=sensor;
         this.medicion=medicion;
-
     }
 
     @NonNull
