@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "161321338538",
+    "firebase_url": "https://miaireapp.firebaseio.com",
+    "project_id": "miaireapp",
+    "storage_bucket": "miaireapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161321338538:android:8fdbeb9ae2b4fb25",
+        "android_client_info": {
+          "package_name": "com.ivan_and_bernie.miaireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161321338538-k04k3p7hiu769i9j2nn0ab8c2liaq4r0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ivan_and_bernie.miaireapp",
+            "certificate_hash": "6d13172a2ba926e14f977f9f970a7f0a9f36bc56"
+          }
+        },
+        {
+          "client_id": "161321338538-rrin0sj8tj5miu97p8o1oi5tn55smhqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtRYXk-H0pS_NtZpHS74crxI5Apobx5ow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161321338538-rrin0sj8tj5miu97p8o1oi5tn55smhqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
